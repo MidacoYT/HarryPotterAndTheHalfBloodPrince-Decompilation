@@ -1,0 +1,58 @@
+name: objdiff report
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: [self-hosted, Windows, X64, hp6-decomp]
+    env:
+      HP6_EXE_PATH: ${{ vars.HP6_EXE_PATH }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x86
+
+      - name: Check local game executable
+        shell: pwsh
+        run: |
+          if (-not $env:HP6_EXE_PATH -or -not (Test-Path -LiteralPath $env:HP6_EXE_PATH)) {
+            throw 'Set the repository variable HP6_EXE_PATH on the self-hosted runner to your local hp6.exe.'
+          }
+
+      - name: Set up objdiff-cli
+        shell: pwsh
+        run: |
+          & tools/get-objdiff.ps1 -Destination (Join-Path $env:RUNNER_TEMP 'objdiff-cli.exe')
+
+      - name: Extract target and compile reconstruction
+        shell: pwsh
+        run: |
+          python tools/extract_target.py --exe "$env:HP6_EXE_PATH"
+          $manifest = Get-Content tools/functions.json -Raw | ConvertFrom-Json
+          foreach ($function in $manifest.functions) {
+            python tools/build.py $function.base_path
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+
+      - name: Generate report
+        shell: pwsh
+        run: |
+          & (Join-Path $env:RUNNER_TEMP 'objdiff-cli.exe') report generate -p . -o build/report.json -f json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pc_report
+          path: build/report.json
+          if-no-files-found: error
+          retention-days: 90
+
