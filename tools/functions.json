@@ -1,0 +1,37 @@
+{
+  "functions": [
+    {
+      "name": "fn_405090",
+      "source_path": "src/fn_405090.c",
+      "base_path": "build/fn_405090.obj",
+      "target_path": "expected/fn_405090.obj",
+      "symbol": "@fn_405090@4",
+      "address": "0x405090",
+      "size": 7,
+      "relocations": []
+    },
+    {
+      "name": "fn_48AE70",
+      "source_path": "src/fn_48AE70.c",
+      "base_path": "build/fn_48AE70.obj",
+      "target_path": "expected/fn_48AE70.obj",
+      "symbol": "_fn_48AE70",
+      "address": "0x48AE70",
+      "size": 38,
+      "relocations": [
+        {
+          "offset": 15,
+          "symbol": "_fn_53CC00@8",
+          "target_address": "0x53CC00",
+          "type": "REL32"
+        },
+        {
+          "offset": 26,
+          "symbol": "_fn_53CF50@8",
+          "target_address": "0x53CF50",
+          "type": "REL32"
+        }
+      ]
+    }
+  ]
+}

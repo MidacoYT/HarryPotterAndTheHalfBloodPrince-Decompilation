@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/encounter/objdiff/main/config.schema.json",
+  "min_version": "3.8.2",
+  "custom_make": "python",
+  "custom_args": ["tools/build.py"],
+  "build_target": false,
+  "build_base": true,
+  "watch_patterns": ["src/**/*.c", "tools/**/*.py", "tools/functions.json", "objdiff.json"],
+  "ignore_patterns": ["build/**/*", "expected/**/*"],
+  "units": [
+    {
+      "name": "fn_405090",
+      "target_path": "expected/fn_405090.obj",
+      "base_path": "build/fn_405090.obj",
+      "metadata": {"source_path": "src/fn_405090.c", "progress_categories": ["game"]}
+    },
+    {
+      "name": "fn_48AE70",
+      "target_path": "expected/fn_48AE70.obj",
+      "base_path": "build/fn_48AE70.obj",
+      "metadata": {"source_path": "src/fn_48AE70.c", "progress_categories": ["game"]}
+    }
+  ],
+  "progress_categories": [{"id": "game", "name": "Game code"}]
+}
