@@ -1,0 +1,1 @@
+struct X { char pad[0x20]; int *table; int max; int offset; int fn_006328D0(int index); }; int X::fn_006328D0(int index) { if (index < 1 || index > max) index = 1; return table[index * 3 - 3] + offset; }

@@ -1,0 +1,1 @@
+typedef unsigned int u32; __declspec(noinline) int fn_00654AE0(u32 p){u32 q=*(u32*)(p+0x0c); if(!q)return 0; return *(signed char*)(q+8);}

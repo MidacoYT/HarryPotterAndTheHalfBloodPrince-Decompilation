@@ -1,0 +1,1 @@
+typedef unsigned int u32; __declspec(noinline) int fn_0068C0A0(u32 p1,u32 p2){float *a=(float*)p1,*b=(float*)p2; return b[1]*a[0] < a[1]*b[0];}

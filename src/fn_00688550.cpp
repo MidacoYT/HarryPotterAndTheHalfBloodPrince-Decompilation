@@ -1,0 +1,1 @@
+typedef unsigned int u32; struct X{u32 x,y,c,d; __declspec(noinline) void fn_00688550(u32 a,u32 b);}; void X::fn_00688550(u32 a,u32 b){if(!a){c=0;d=0;}else{c=a-(u32)this;d=b;}}

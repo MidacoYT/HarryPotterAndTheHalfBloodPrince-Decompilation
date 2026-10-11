@@ -1,0 +1,1 @@
+typedef unsigned int u32; typedef unsigned short u16; __declspec(noinline) void fn_006872A0(u32 node,u32 head){volatile u32 *n=(volatile u32*)node; volatile u32 *h=(volatile u32*)head; u32 q; n[2]=0; q=h[5]; n[3]=q; q=h[5]; if(q){*(volatile u32*)(q+8)=node; h[5]=node;}else{h[4]=node;h[5]=node;} ++*(volatile u16*)(head+0x24); }

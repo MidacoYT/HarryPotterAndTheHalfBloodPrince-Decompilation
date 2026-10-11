@@ -1,0 +1,1 @@
+int __cdecl fn_006E34C1(int a,int b,int c) { int i=a*6+b; i*=6; return *(unsigned char*)(0x852d6d+i+c); }

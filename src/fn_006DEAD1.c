@@ -1,0 +1,1 @@
+int __cdecl fn_006DEAD1(void){return *(unsigned char *)0x0089b438 == 1;}

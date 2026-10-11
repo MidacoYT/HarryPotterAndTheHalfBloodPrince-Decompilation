@@ -1,0 +1,1 @@
+void __fastcall sub_6D7A48(void *self, void *unused, void *out) { volatile unsigned *f=(volatile unsigned *)self; unsigned *o=(unsigned *)out; o[2]=(f[0]>>10)&1; o[3]=(f[0]>>11)&1; o[4]=(f[0]>>9)&1; }

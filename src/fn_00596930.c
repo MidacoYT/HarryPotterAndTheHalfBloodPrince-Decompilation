@@ -1,0 +1,1 @@
+__declspec(noinline) void *fn_00596930(int index) { if (*(unsigned char*)0x00d2062c == 0 || index < 0 || index > *(int*)((char*)*(void **)0x00d20660+8)) return 0; return (char*)*(void **)0x00d20664 + index*128; }

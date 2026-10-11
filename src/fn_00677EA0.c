@@ -1,0 +1,1 @@
+typedef unsigned int u32; __declspec(noinline) void fn_00677EA0(u32 mask,u32 p){while(p){u32 *w=(u32*)p; *w=(*w&0xffef2fffu)|mask; p=*(u32*)(p+0x25cu);}}

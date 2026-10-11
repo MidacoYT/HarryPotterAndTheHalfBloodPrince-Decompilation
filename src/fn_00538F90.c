@@ -1,0 +1,1 @@
+typedef unsigned u32; typedef struct O { unsigned char pad[0x3c]; unsigned char flags; } O; __declspec(noinline) void fn_00538F90(O *p) { unsigned char *b=(unsigned char*)p; u32 *q; b[0x3c] &= 0xfd; *(u32*)(b+0x30) &= ~0x200u; q=*(u32**)(b+0x28); if(q) { if(q[0]) q[3]=((u32*)0x00d64598)[*(u32*)0x0089eb14]; q[0]=0; } }

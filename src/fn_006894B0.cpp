@@ -1,0 +1,1 @@
+struct X { virtual void f0()=0; virtual void f1()=0; virtual void f2()=0; virtual void f3()=0; virtual void f4(int)=0; int refs; int release(); }; int X::release() { --refs; if (!refs) f4(1); return refs; }

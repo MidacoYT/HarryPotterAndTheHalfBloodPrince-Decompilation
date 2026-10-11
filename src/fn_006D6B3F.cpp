@@ -1,0 +1,1 @@
+struct V { virtual void pad(); virtual void f(int,int); }; extern "C" void __cdecl fn_006D6B3F(int x) { ((V*)*(void**)0x895c84)->f(x,0); }

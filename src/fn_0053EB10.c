@@ -1,0 +1,1 @@
+typedef unsigned u32; __declspec(noinline) void *fn_0053EB10(void *unused, u32 key) { u32 i=0; u32 *p=(u32*)0x00892300; for(; (int)p<0x00892378; i++,p+=3) if(*p==key) return (void*)(0x00892300+i*12); return 0; }

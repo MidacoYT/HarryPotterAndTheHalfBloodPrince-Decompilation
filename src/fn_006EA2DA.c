@@ -1,0 +1,1 @@
+void fn_006EA2DA(void) { *(volatile unsigned int *)0x0089b5f8=0x006f0d3a; *(volatile unsigned int *)0x0089b658=0x2c; *(volatile unsigned int *)0x0089b65c=0x54; *(volatile unsigned int *)0x0089b5fc=0x006f0c48; *(volatile unsigned int *)0x0089b600=0x006f0a45; *(volatile unsigned int *)0x0089b660=0x3c; }

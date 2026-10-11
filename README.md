@@ -5,9 +5,11 @@ An unofficial, function-by-function decompilation project for the **Windows PC**
 ## Current progress
 
 - Target executable: `hp6.exe`, version `1.0.0.1`, SHA-256 `41cbb7ad4b08f6edeb5c2a06aea037d1c0634e9b71df093cc9a26b2287916e10`.
-- `fn_405090`: reconstructed from its seven x86 instructions and exact under local objdiff.
-- `fn_48AE70` (documented as `DeactivateScreenNoFocus`): reconstructed in C; currently an 82.22% fuzzy objdiff match with MSVC 19.52.
-- The committed report covers 2 functions and 45 code bytes: 1 exact function and 84.99% aggregate fuzzy similarity. This is an initial slice, not whole-game coverage.
+- The current objdiff report covers all 10,989 inventoried functions. 2,358 functions match exactly (21.46% by function count).
+- Exact machine-code coverage is 28,616 of 2,530,810 code bytes (1.13%).
+- Recompiling 83 existing nonmatching C candidates with VC8 SP1 `/O2` produced 21 exact matches. Fixing C89 declaration order made five more sources compile; `fn_006F2514` now matches 30/30 bytes. Rewriting `fn_0057BA10` without an intermediate also matches 34/34 bytes. The latest report was generated from the rebuilt objects.
+- This pass added 178 C matching candidates, each rebuilt and byte-checked with VC8 SP1; 108 use per-function compiler switches recorded in the manifest. Recent batches found 68 matches through compiler-option sweeps, 9 after allowing undeclared internal calls, 1 after adding a typed global declaration at its recorded address, and 5 with alternate optimizer flags. Their options and relocations are recorded in the manifest. Source semantics remain inferred from the binary and are not independently validated.
+- Added a custom Capstone-based decompiler (`tmp/autodecomp/own_decompiler.py`) that transliterates straight-line/branching x86 into C without guessing, plus an LTCG-based matcher for register-passed arguments. Fixed a dead-code-elimination bug in the LTCG probe harness, added deferred cmp/test-to-jcc matching across VC8's instruction-scheduled code, and added `base + index*scale` memory-operand support. 19 new exact matches from this pass.
 
 Symbols remain address-based for reliable objdiff matching; confirmed function roles are recorded in source comments and [the setup and evidence notes](docs/DECOMPILATION_SETUP.md).
 
@@ -18,13 +20,13 @@ The game executable and generated target objects stay on your PC. Use the copy f
 ```powershell
 $env:HP6_EXE_PATH = 'C:\Program Files (x86)\Electronic Arts\Harry Potter et le Prince de Sang-Mêlé™\pc\hp6.exe'
 python tools/extract_target.py --exe $env:HP6_EXE_PATH
-python tools/build.py build/fn_405090.obj
-python tools/build.py build/fn_48AE70.obj
+$env:HP6_CL = 'C:\Path\To\VC8-SP1\cl.exe'
+python tools/build.py build/fn_00401030.obj
 .\tools\get-objdiff.ps1
 .\tools\objdiff-cli.exe report generate -p . -o report.json -f json
 ```
 
-This requires Python and the Visual Studio x86 C compiler. `extract_target.py` verifies the executable fingerprint and writes private target objects under `expected/`. `build/`, `expected/`, and the downloaded objdiff executable are ignored by Git. The tracked `report.json` contains matching measures only.
+This requires Python and an x86 MSVC compiler. To reproduce the current exact matches, set `HP6_CL` to a compatible VC8 SP1 compiler; a newer MSVC can produce different code. `extract_target.py` verifies the executable fingerprint and writes private target objects under `expected/`. `build/`, `expected/`, and the downloaded objdiff executable are ignored by Git. The tracked `report.json` contains matching measures only.
 
 ## decomp.dev
 

@@ -1,0 +1,1 @@
+typedef unsigned int u32; typedef unsigned char u8; __declspec(noinline) float fn_00680C90(const u8 *p){union{u32 i;float f;}v; v.i=((u32)p[3]<<24)|((u32)p[2]<<16)|((u32)p[1]<<8)|(u32)p[0]; return v.f;}

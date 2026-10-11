@@ -1,0 +1,1 @@
+typedef unsigned u32; __declspec(noinline) void fn_005B80A0(void *obj, u32 value) { u32 *p=(u32*)obj; if(value==p[0xa7c/4]) p[0xa7c/4]=0; if(value==p[0xa80/4]) p[0xa80/4]=0; if(value==p[0xa84/4]) p[0xa84/4]=0; }

@@ -1,0 +1,1 @@
+unsigned char __cdecl fn_006D6B7F(int c) { unsigned char r=0; if(c>=0x29) { if(c<=0x2a) r=1; else if(c==0x2d) r=1; else if(c==0x2f) r=1; else if(c==0x32) r=1; } return r; }

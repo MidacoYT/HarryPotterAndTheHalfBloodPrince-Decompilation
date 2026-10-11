@@ -1,0 +1,1 @@
+unsigned int __cdecl fn_0063C300(void){return *(unsigned int *)(0x00ba1500 + (int)*(short *)0x00c70a74 * 4);}

@@ -1,0 +1,1 @@
+typedef unsigned int u32; __declspec(noinline) void fn_00673280(u32 src,u32 dst){float *d=(float*)dst; const float *s=(const float*)src; d[0]=s[0];d[1]=s[1];d[2]=s[2];d[3]=s[3];d[4]=s[4];d[5]=s[5];d[6]=s[6];d[7]=s[7];}

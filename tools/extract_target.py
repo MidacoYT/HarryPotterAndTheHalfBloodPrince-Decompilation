@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SHA256 = "41cbb7ad4b08f6edeb5c2a06aea037d1c0634e9b71df093cc9a26b2287916e10"
-RELOCATION_TYPES = {"REL32": 0x0014}
+RELOCATION_TYPES = {"REL32": 0x0014, "DIR32": 0x0006}
 
 
 def load_image(path: Path) -> tuple[bytes, int, tuple[int, int, int]]:
@@ -78,17 +78,27 @@ def make_coff(code: bytes, function: dict) -> bytes:
         offset = int(relocation["offset"])
         if offset < 0 or offset + 4 > len(adjusted):
             raise SystemExit(f"Relocation out of range in {function['name']}.")
-        if offset == 0 or adjusted[offset - 1] != 0xE8:
-            raise SystemExit(f"Expected a direct CALL immediately before relocation at +0x{offset:X}.")
-        displacement = struct.unpack_from("<i", adjusted, offset)[0]
-        actual_target = base_address + offset + 4 + displacement
+        if kind == "REL32":
+            if offset == 0 or adjusted[offset - 1] not in (0xE8, 0xE9):
+                raise SystemExit(
+                    f"Expected a direct CALL/JMP immediately before relocation at +0x{offset:X}."
+                )
+            displacement = struct.unpack_from("<i", adjusted, offset)[0]
+            actual_target = base_address + offset + 4 + displacement
+        elif kind == "DIR32":
+            actual_target = struct.unpack_from("<I", adjusted, offset)[0]
+        else:
+            raise SystemExit(f"Unsupported relocation type in {function['name']}: {kind}")
         expected_target = int(relocation["target_address"], 0)
         if actual_target != expected_target:
             raise SystemExit(
                 f"Call at +0x{offset:X} resolves to 0x{actual_target:08X}, "
                 f"expected 0x{expected_target:08X}."
             )
-        adjusted[offset:offset + 4] = b"\0\0\0\0"
+        addend = int(relocation.get("addend", 0))
+        if not 0 <= addend <= 0xFFFFFFFF:
+            raise SystemExit(f"Invalid relocation addend in {function['name']}.")
+        adjusted[offset:offset + 4] = struct.pack("<I", addend) if kind == "DIR32" else b"\0\0\0\0"
         symbol_index = symbol_names.index(relocation["symbol"])
         relocation_records.append(struct.pack("<IIH", offset, symbol_index, RELOCATION_TYPES[kind]))
 

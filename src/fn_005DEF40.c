@@ -1,0 +1,1 @@
+__declspec(noinline) void fn_005DEF40(unsigned int p) { unsigned int a=*(unsigned int*)(p+0x18u); unsigned int b=*(unsigned int*)(p+0x1cu); *(unsigned int*)(a+0x1cu)=b; a=*(unsigned int*)(p+0x1cu); b=*(unsigned int*)(p+0x18u); *(unsigned int*)(a+0x18u)=b; }

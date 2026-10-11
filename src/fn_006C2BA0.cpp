@@ -1,0 +1,1 @@
+struct C { int __thiscall f(int flag); }; int C::f(int flag) { if (flag == 0) return *(int *)((char *)this + 0x5c); return ~0; }

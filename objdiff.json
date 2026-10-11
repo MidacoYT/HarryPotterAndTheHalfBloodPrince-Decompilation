@@ -648,6 +648,7 @@
       "target_path": "expected/fn_00401030.obj",
       "base_path": "build/fn_00401030.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00401030.c",
         "progress_categories": [
           "game"
         ]
@@ -1174,7 +1175,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00404670.c"
       }
     },
     {
@@ -1304,7 +1306,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00404E10.c"
       }
     },
     {
@@ -1460,7 +1463,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00405220.c"
       }
     },
     {
@@ -1468,6 +1472,7 @@
       "target_path": "expected/fn_00405250.obj",
       "base_path": "build/fn_00405250.obj",
       "metadata": {
+        "source_path": "src/fn_00405250.c",
         "progress_categories": [
           "game"
         ]
@@ -1520,7 +1525,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00405370.c"
       }
     },
     {
@@ -1530,7 +1536,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00405390.c"
       }
     },
     {
@@ -1540,7 +1547,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004053B0.c"
       }
     },
     {
@@ -1601,7 +1609,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_00405A30.c"
+        "source_path": "src/matching_candidates/fn_00405A30.c"
       }
     },
     {
@@ -2061,6 +2069,7 @@
       "target_path": "expected/fn_00408600.obj",
       "base_path": "build/fn_00408600.obj",
       "metadata": {
+        "source_path": "src/fn_00408600.c",
         "progress_categories": [
           "game"
         ]
@@ -2647,7 +2656,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_0040B0E0.c"
       }
     },
     {
@@ -2978,7 +2988,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0040C3C0.c"
       }
     },
     {
@@ -3252,6 +3263,7 @@
       "target_path": "expected/fn_0040D830.obj",
       "base_path": "build/fn_0040D830.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0040D830.c",
         "progress_categories": [
           "game"
         ]
@@ -3295,7 +3307,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0040DA00.c"
       }
     },
     {
@@ -3873,7 +3886,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00412F70.c"
       }
     },
     {
@@ -4673,6 +4687,7 @@
       "target_path": "expected/fn_0041B080.obj",
       "base_path": "build/fn_0041B080.obj",
       "metadata": {
+        "source_path": "src/fn_0041B080.c",
         "progress_categories": [
           "game"
         ]
@@ -4908,6 +4923,7 @@
       "target_path": "expected/fn_0041C200.obj",
       "base_path": "build/fn_0041C200.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0041C200.c",
         "progress_categories": [
           "game"
         ]
@@ -5984,6 +6000,7 @@
       "target_path": "expected/fn_00422DD0.obj",
       "base_path": "build/fn_00422DD0.obj",
       "metadata": {
+        "source_path": "src/fn_00422DD0.c",
         "progress_categories": [
           "game"
         ]
@@ -6410,7 +6427,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00426B00.c"
       }
     },
     {
@@ -6420,7 +6438,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00426B20.c"
       }
     },
     {
@@ -6685,7 +6704,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00427410.c"
       }
     },
     {
@@ -8085,7 +8105,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00431D30.c"
       }
     },
     {
@@ -8183,6 +8204,7 @@
       "target_path": "expected/fn_00432120.obj",
       "base_path": "build/fn_00432120.obj",
       "metadata": {
+        "source_path": "src/fn_00432120.c",
         "progress_categories": [
           "game"
         ]
@@ -8193,6 +8215,7 @@
       "target_path": "expected/fn_00432160.obj",
       "base_path": "build/fn_00432160.obj",
       "metadata": {
+        "source_path": "src/fn_00432160.c",
         "progress_categories": [
           "game"
         ]
@@ -8348,7 +8371,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00433240.c"
       }
     },
     {
@@ -8897,7 +8921,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004350D0.c"
       }
     },
     {
@@ -8917,7 +8942,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004351A0.c"
       }
     },
     {
@@ -9495,6 +9521,7 @@
       "target_path": "expected/fn_00438B50.obj",
       "base_path": "build/fn_00438B50.obj",
       "metadata": {
+        "source_path": "src/fn_00438B50.c",
         "progress_categories": [
           "game"
         ]
@@ -9558,7 +9585,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00438FA0.c"
       }
     },
     {
@@ -12291,7 +12319,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00454D90.c"
       }
     },
     {
@@ -12475,6 +12504,7 @@
       "target_path": "expected/fn_00456070.obj",
       "base_path": "build/fn_00456070.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00456070.c",
         "progress_categories": [
           "game"
         ]
@@ -12968,6 +12998,7 @@
       "target_path": "expected/fn_00457B50.obj",
       "base_path": "build/fn_00457B50.obj",
       "metadata": {
+        "source_path": "src/fn_00457B50.c",
         "progress_categories": [
           "game"
         ]
@@ -13069,6 +13100,7 @@
       "target_path": "expected/fn_00458390.obj",
       "base_path": "build/fn_00458390.obj",
       "metadata": {
+        "source_path": "src/fn_00458390.c",
         "progress_categories": [
           "game"
         ]
@@ -13121,7 +13153,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00458470.c"
       }
     },
     {
@@ -15837,7 +15870,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00477DD0.c"
       }
     },
     {
@@ -15847,7 +15881,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00477E40.c"
       }
     },
     {
@@ -16742,7 +16777,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00484720.c"
       }
     },
     {
@@ -18136,6 +18172,7 @@
       "target_path": "expected/fn_00491F60.obj",
       "base_path": "build/fn_00491F60.obj",
       "metadata": {
+        "source_path": "src/fn_00491F60.c",
         "progress_categories": [
           "game"
         ]
@@ -18355,7 +18392,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004926B0.c"
       }
     },
     {
@@ -18731,7 +18769,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00494D00.c"
       }
     },
     {
@@ -18943,6 +18982,7 @@
       "target_path": "expected/fn_00495D80.obj",
       "base_path": "build/fn_00495D80.obj",
       "metadata": {
+        "source_path": "src/fn_00495D80.c",
         "progress_categories": [
           "game"
         ]
@@ -19362,6 +19402,7 @@
       "target_path": "expected/fn_0049D0C0.obj",
       "base_path": "build/fn_0049D0C0.obj",
       "metadata": {
+        "source_path": "src/fn_0049D0C0.c",
         "progress_categories": [
           "game"
         ]
@@ -21490,6 +21531,7 @@
       "target_path": "expected/fn_004B3040.obj",
       "base_path": "build/fn_004B3040.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_004B3040.c",
         "progress_categories": [
           "game"
         ]
@@ -21513,7 +21555,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004B30C0.c"
       }
     },
     {
@@ -22810,7 +22853,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004C82F0.c"
       }
     },
     {
@@ -23414,6 +23458,7 @@
       "target_path": "expected/fn_004CCC30.obj",
       "base_path": "build/fn_004CCC30.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_004CCC30.c",
         "progress_categories": [
           "game"
         ]
@@ -23424,6 +23469,7 @@
       "target_path": "expected/fn_004CCC60.obj",
       "base_path": "build/fn_004CCC60.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_004CCC60.c",
         "progress_categories": [
           "game"
         ]
@@ -24867,7 +24913,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004D6410.c"
       }
     },
     {
@@ -24877,7 +24924,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004D6420.c"
       }
     },
     {
@@ -25404,7 +25452,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004DA3D0.c"
       }
     },
     {
@@ -25435,7 +25484,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004DA6C0.c"
       }
     },
     {
@@ -27164,7 +27214,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_004EEC80.c"
       }
     },
     {
@@ -27493,7 +27544,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_004F4380.c"
       }
     },
     {
@@ -28087,7 +28139,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00500E20.c"
       }
     },
     {
@@ -28716,6 +28769,7 @@
       "target_path": "expected/fn_00508110.obj",
       "base_path": "build/fn_00508110.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00508110.c",
         "progress_categories": [
           "game"
         ]
@@ -29519,6 +29573,7 @@
       "target_path": "expected/fn_0050D9C0.obj",
       "base_path": "build/fn_0050D9C0.obj",
       "metadata": {
+        "source_path": "src/fn_0050D9C0.c",
         "progress_categories": [
           "game"
         ]
@@ -29899,7 +29954,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0050F550.c"
       }
     },
     {
@@ -33146,7 +33202,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00530E30.c"
       }
     },
     {
@@ -33906,6 +33963,7 @@
       "target_path": "expected/fn_00539940.obj",
       "base_path": "build/fn_00539940.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00539940.c",
         "progress_categories": [
           "game"
         ]
@@ -34110,7 +34168,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0053AD60.c"
       }
     },
     {
@@ -34120,7 +34179,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0053AD90.c"
       }
     },
     {
@@ -34239,6 +34299,7 @@
       "target_path": "expected/fn_0053BE40.obj",
       "base_path": "build/fn_0053BE40.obj",
       "metadata": {
+        "source_path": "src/fn_0053BE40.c",
         "progress_categories": [
           "game"
         ]
@@ -36542,6 +36603,7 @@
       "target_path": "expected/fn_005487E0.obj",
       "base_path": "build/fn_005487E0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005487E0.c",
         "progress_categories": [
           "game"
         ]
@@ -36595,7 +36657,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00548EB0.c"
       }
     },
     {
@@ -36605,7 +36668,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00548EF0.c"
       }
     },
     {
@@ -39013,7 +39077,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0055CF80.c"
       }
     },
     {
@@ -39271,6 +39336,7 @@
       "target_path": "expected/fn_0055EF40.obj",
       "base_path": "build/fn_0055EF40.obj",
       "metadata": {
+        "source_path": "src/fn_0055EF40.c",
         "progress_categories": [
           "game"
         ]
@@ -39723,7 +39789,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00563760.c"
       }
     },
     {
@@ -39937,7 +40004,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00564C80.c"
       }
     },
     {
@@ -41510,7 +41578,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00575620.c"
       }
     },
     {
@@ -42189,6 +42258,7 @@
       "target_path": "expected/fn_0057B500.obj",
       "base_path": "build/fn_0057B500.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0057B500.c",
         "progress_categories": [
           "game"
         ]
@@ -42251,7 +42321,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0057BA10.c"
       }
     },
     {
@@ -43104,7 +43175,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00581400.c"
       }
     },
     {
@@ -43260,7 +43332,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00581930.c"
       }
     },
     {
@@ -43374,7 +43447,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00582110.c"
       }
     },
     {
@@ -44720,7 +44794,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0058C0E0.c"
       }
     },
     {
@@ -44902,7 +44977,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0058D7B0.c"
       }
     },
     {
@@ -45033,6 +45109,7 @@
       "target_path": "expected/fn_0058E560.obj",
       "base_path": "build/fn_0058E560.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0058E560.c",
         "progress_categories": [
           "game"
         ]
@@ -45977,6 +46054,7 @@
       "target_path": "expected/fn_0059BB20.obj",
       "base_path": "build/fn_0059BB20.obj",
       "metadata": {
+        "source_path": "src/fn_0059BB20.c",
         "progress_categories": [
           "game"
         ]
@@ -45987,6 +46065,7 @@
       "target_path": "expected/fn_0059BB30.obj",
       "base_path": "build/fn_0059BB30.obj",
       "metadata": {
+        "source_path": "src/fn_0059BB30.c",
         "progress_categories": [
           "game"
         ]
@@ -45999,7 +46078,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_0059BB40.c"
       }
     },
     {
@@ -46007,6 +46087,7 @@
       "target_path": "expected/fn_0059BB50.obj",
       "base_path": "build/fn_0059BB50.obj",
       "metadata": {
+        "source_path": "src/fn_0059BB50.c",
         "progress_categories": [
           "game"
         ]
@@ -46017,6 +46098,7 @@
       "target_path": "expected/fn_0059BB60.obj",
       "base_path": "build/fn_0059BB60.obj",
       "metadata": {
+        "source_path": "src/fn_0059BB60.c",
         "progress_categories": [
           "game"
         ]
@@ -46281,6 +46363,7 @@
       "target_path": "expected/fn_0059CF20.obj",
       "base_path": "build/fn_0059CF20.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0059CF20.c",
         "progress_categories": [
           "game"
         ]
@@ -46291,6 +46374,7 @@
       "target_path": "expected/fn_0059CF60.obj",
       "base_path": "build/fn_0059CF60.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0059CF60.c",
         "progress_categories": [
           "game"
         ]
@@ -47686,7 +47770,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005A6DE0.c"
       }
     },
     {
@@ -48634,7 +48719,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005AE580.c"
       }
     },
     {
@@ -49902,7 +49988,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005BEAE0.c"
       }
     },
     {
@@ -51395,6 +51482,7 @@
       "target_path": "expected/fn_005CDA40.obj",
       "base_path": "build/fn_005CDA40.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005CDA40.c",
         "progress_categories": [
           "game"
         ]
@@ -51745,7 +51833,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005D0F40.c"
       }
     },
     {
@@ -52222,7 +52311,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005D4400.c"
       }
     },
     {
@@ -53155,7 +53245,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DAFA0.c"
       }
     },
     {
@@ -53278,7 +53369,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DB440.c"
       }
     },
     {
@@ -53299,7 +53391,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DB470.c"
       }
     },
     {
@@ -53309,7 +53402,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DB480.c"
       }
     },
     {
@@ -53319,7 +53413,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DB490.c"
       }
     },
     {
@@ -53862,6 +53957,7 @@
       "target_path": "expected/fn_005DDC40.obj",
       "base_path": "build/fn_005DDC40.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005DDC40.c",
         "progress_categories": [
           "game"
         ]
@@ -54022,7 +54118,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DEF40.c"
       }
     },
     {
@@ -54169,7 +54266,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005DFB30.c"
       }
     },
     {
@@ -54342,6 +54440,7 @@
       "target_path": "expected/fn_005E0450.obj",
       "base_path": "build/fn_005E0450.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005E0450.c",
         "progress_categories": [
           "game"
         ]
@@ -55196,6 +55295,7 @@
       "target_path": "expected/fn_005E3940.obj",
       "base_path": "build/fn_005E3940.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005E3940.c",
         "progress_categories": [
           "game"
         ]
@@ -55628,7 +55728,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005E6750.c"
       }
     },
     {
@@ -55676,6 +55777,7 @@
       "target_path": "expected/fn_005E6BA0.obj",
       "base_path": "build/fn_005E6BA0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_005E6BA0.c",
         "progress_categories": [
           "game"
         ]
@@ -55758,7 +55860,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005E7230.c"
       }
     },
     {
@@ -56231,7 +56334,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005E8E00.c"
       }
     },
     {
@@ -56606,7 +56710,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005EC5E0.c"
       }
     },
     {
@@ -57457,7 +57562,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_005F2710.c"
       }
     },
     {
@@ -58210,7 +58316,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_005FCE80.c"
       }
     },
     {
@@ -58831,6 +58938,7 @@
       "target_path": "expected/fn_006091F0.obj",
       "base_path": "build/fn_006091F0.obj",
       "metadata": {
+        "source_path": "src/fn_006091F0.c",
         "progress_categories": [
           "game"
         ]
@@ -59305,6 +59413,7 @@
       "target_path": "expected/fn_00616420.obj",
       "base_path": "build/fn_00616420.obj",
       "metadata": {
+        "source_path": "src/fn_00616420.c",
         "progress_categories": [
           "game"
         ]
@@ -59317,7 +59426,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00616450.c"
       }
     },
     {
@@ -59335,6 +59445,7 @@
       "target_path": "expected/fn_00616E60.obj",
       "base_path": "build/fn_00616E60.obj",
       "metadata": {
+        "source_path": "src/fn_00616E60.c",
         "progress_categories": [
           "game"
         ]
@@ -59347,7 +59458,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00616E90.c"
       }
     },
     {
@@ -59385,6 +59497,7 @@
       "target_path": "expected/fn_00617280.obj",
       "base_path": "build/fn_00617280.obj",
       "metadata": {
+        "source_path": "src/fn_00617280.c",
         "progress_categories": [
           "game"
         ]
@@ -59397,7 +59510,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006172B0.c"
       }
     },
     {
@@ -59425,6 +59539,7 @@
       "target_path": "expected/fn_00617DC0.obj",
       "base_path": "build/fn_00617DC0.obj",
       "metadata": {
+        "source_path": "src/fn_00617DC0.c",
         "progress_categories": [
           "game"
         ]
@@ -59437,7 +59552,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00617DF0.c"
       }
     },
     {
@@ -59475,6 +59591,7 @@
       "target_path": "expected/fn_00618DF0.obj",
       "base_path": "build/fn_00618DF0.obj",
       "metadata": {
+        "source_path": "src/fn_00618DF0.c",
         "progress_categories": [
           "game"
         ]
@@ -59487,7 +59604,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00618E50.c"
       }
     },
     {
@@ -60023,7 +60141,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006205D0.c"
       }
     },
     {
@@ -60556,7 +60675,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00623D90.c"
       }
     },
     {
@@ -61572,7 +61692,7 @@
       "target_path": "expected/fn_0062B340.obj",
       "base_path": "build/fn_0062B340.obj",
       "metadata": {
-        "source_path": "src/fn_0062B340.c",
+        "source_path": "src/matching_candidates/fn_0062B340.c",
         "progress_categories": [
           "game"
         ]
@@ -61770,7 +61890,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0062C1E0.c"
       }
     },
     {
@@ -61945,7 +62066,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0062CD20.c"
       }
     },
     {
@@ -62963,7 +63085,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006306F0.c"
       }
     },
     {
@@ -63364,6 +63487,7 @@
       "target_path": "expected/fn_00631C00.obj",
       "base_path": "build/fn_00631C00.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00631C00.c",
         "progress_categories": [
           "game"
         ]
@@ -63394,6 +63518,7 @@
       "target_path": "expected/fn_00631CB0.obj",
       "base_path": "build/fn_00631CB0.obj",
       "metadata": {
+        "source_path": "src/fn_00631CB0.c",
         "progress_categories": [
           "game"
         ]
@@ -63414,6 +63539,7 @@
       "target_path": "expected/fn_00631D10.obj",
       "base_path": "build/fn_00631D10.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00631D10.c",
         "progress_categories": [
           "game"
         ]
@@ -63424,6 +63550,7 @@
       "target_path": "expected/fn_00631D30.obj",
       "base_path": "build/fn_00631D30.obj",
       "metadata": {
+        "source_path": "src/fn_00631D30.c",
         "progress_categories": [
           "game"
         ]
@@ -63434,6 +63561,7 @@
       "target_path": "expected/fn_00631D40.obj",
       "base_path": "build/fn_00631D40.obj",
       "metadata": {
+        "source_path": "src/fn_00631D40.c",
         "progress_categories": [
           "game"
         ]
@@ -63444,6 +63572,7 @@
       "target_path": "expected/fn_00631D50.obj",
       "base_path": "build/fn_00631D50.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00631D50.c",
         "progress_categories": [
           "game"
         ]
@@ -63681,6 +63810,7 @@
       "target_path": "expected/fn_00633050.obj",
       "base_path": "build/fn_00633050.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00633050.c",
         "progress_categories": [
           "game"
         ]
@@ -64051,7 +64181,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00635780.c"
       }
     },
     {
@@ -64435,7 +64566,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00637460.c"
       }
     },
     {
@@ -65125,7 +65257,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063A440.c"
       }
     },
     {
@@ -65661,7 +65794,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B450.c"
       }
     },
     {
@@ -65671,7 +65805,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B480.c"
       }
     },
     {
@@ -65712,7 +65847,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B590.c"
       }
     },
     {
@@ -65722,7 +65858,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B5A0.cpp"
       }
     },
     {
@@ -65753,7 +65890,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B5E0.c"
       }
     },
     {
@@ -65793,7 +65931,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B660.c"
       }
     },
     {
@@ -65803,7 +65942,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B670.c"
       }
     },
     {
@@ -65813,7 +65953,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B680.c"
       }
     },
     {
@@ -65843,6 +65984,7 @@
       "target_path": "expected/fn_0063B6C0.obj",
       "base_path": "build/fn_0063B6C0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0063B6C0.c",
         "progress_categories": [
           "game"
         ]
@@ -65927,7 +66069,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B7D0.c"
       }
     },
     {
@@ -65937,7 +66080,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B7E0.c"
       }
     },
     {
@@ -65947,7 +66091,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0063B800.c"
       }
     },
     {
@@ -66225,6 +66370,7 @@
       "target_path": "expected/fn_0063CD50.obj",
       "base_path": "build/fn_0063CD50.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0063CD50.c",
         "progress_categories": [
           "game"
         ]
@@ -67031,6 +67177,7 @@
       "target_path": "expected/fn_00641C20.obj",
       "base_path": "build/fn_00641C20.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_00641C20.c",
         "progress_categories": [
           "game"
         ]
@@ -67115,7 +67262,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00642420.c"
       }
     },
     {
@@ -67298,7 +67446,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006448C0.c"
       }
     },
     {
@@ -67739,7 +67888,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0064C2A0.c"
       }
     },
     {
@@ -67904,7 +68054,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0064C800.c"
       }
     },
     {
@@ -68206,7 +68357,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00650F60.c"
       }
     },
     {
@@ -68301,7 +68453,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00651D50.c"
       }
     },
     {
@@ -68382,7 +68535,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006524B0.c"
       }
     },
     {
@@ -68785,7 +68939,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00653620.c"
       }
     },
     {
@@ -69162,7 +69317,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_00654ED0.c"
       }
     },
     {
@@ -69730,7 +69886,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00657850.c"
       }
     },
     {
@@ -70564,7 +70721,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0065C5E0.c"
       }
     },
     {
@@ -70810,7 +70968,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0065F700.c"
       }
     },
     {
@@ -70858,6 +71017,7 @@
       "target_path": "expected/fn_0065FF90.obj",
       "base_path": "build/fn_0065FF90.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0065FF90.c",
         "progress_categories": [
           "game"
         ]
@@ -71064,7 +71224,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00660AC0.c"
       }
     },
     {
@@ -71352,7 +71513,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00664A10.c"
       }
     },
     {
@@ -71652,6 +71814,7 @@
       "target_path": "expected/fn_00667720.obj",
       "base_path": "build/fn_00667720.obj",
       "metadata": {
+        "source_path": "src/fn_00667720.c",
         "progress_categories": [
           "game"
         ]
@@ -72017,7 +72180,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0066A750.c"
       }
     },
     {
@@ -76417,7 +76581,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00689D20.c"
       }
     },
     {
@@ -76535,6 +76700,7 @@
       "target_path": "expected/fn_0068A200.obj",
       "base_path": "build/fn_0068A200.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0068A200.c",
         "progress_categories": [
           "game"
         ]
@@ -76687,7 +76853,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0068B380.c"
       }
     },
     {
@@ -76886,6 +77053,7 @@
       "target_path": "expected/fn_0068BDD0.obj",
       "base_path": "build/fn_0068BDD0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0068BDD0.c",
         "progress_categories": [
           "game"
         ]
@@ -77196,6 +77364,7 @@
       "target_path": "expected/fn_0068EC10.obj",
       "base_path": "build/fn_0068EC10.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_0068EC10.c",
         "progress_categories": [
           "game"
         ]
@@ -77438,7 +77607,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006911A0.cpp"
       }
     },
     {
@@ -77569,7 +77739,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_00691F00.cpp"
       }
     },
     {
@@ -77749,7 +77920,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_0069B690.cpp"
       }
     },
     {
@@ -78179,7 +78351,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006A3230.cpp"
       }
     },
     {
@@ -78287,6 +78460,7 @@
       "target_path": "expected/fn_006A5600.obj",
       "base_path": "build/fn_006A5600.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006A5600.c",
         "progress_categories": [
           "game"
         ]
@@ -78297,6 +78471,7 @@
       "target_path": "expected/fn_006A5640.obj",
       "base_path": "build/fn_006A5640.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006A5640.c",
         "progress_categories": [
           "game"
         ]
@@ -78581,7 +78756,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006AE620.c"
+        "source_path": "src/matching_candidates/fn_006AE620.c"
       }
     },
     {
@@ -78799,6 +78974,7 @@
       "target_path": "expected/fn_006AF7E0.obj",
       "base_path": "build/fn_006AF7E0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006AF7E0.c",
         "progress_categories": [
           "game"
         ]
@@ -78931,7 +79107,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B175B.c"
       }
     },
     {
@@ -78951,7 +79128,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B17B7.c"
       }
     },
     {
@@ -78961,7 +79139,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B17E5.c"
       }
     },
     {
@@ -78971,7 +79150,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B1815.c"
       }
     },
     {
@@ -78981,7 +79161,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B183A.c"
       }
     },
     {
@@ -79239,6 +79420,7 @@
       "target_path": "expected/fn_006B23A9.obj",
       "base_path": "build/fn_006B23A9.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B23A9.c",
         "progress_categories": [
           "game"
         ]
@@ -79441,7 +79623,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B2C65.cpp"
       }
     },
     {
@@ -79461,7 +79644,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B2CBD.c"
       }
     },
     {
@@ -79471,7 +79655,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B2CE9.cpp"
       }
     },
     {
@@ -79921,7 +80106,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B3987.c"
       }
     },
     {
@@ -79941,7 +80127,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B39D0.c"
       }
     },
     {
@@ -80163,7 +80350,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B44D8.c"
       }
     },
     {
@@ -80183,7 +80371,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B44EE.c"
       }
     },
     {
@@ -80193,7 +80382,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B44F9.c"
       }
     },
     {
@@ -80203,7 +80393,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B4504.c"
       }
     },
     {
@@ -80213,7 +80404,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B450F.c"
       }
     },
     {
@@ -80223,7 +80415,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B4529.c"
       }
     },
     {
@@ -80233,7 +80426,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B4534.c"
       }
     },
     {
@@ -80294,7 +80488,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B457A.c"
       }
     },
     {
@@ -80302,6 +80497,7 @@
       "target_path": "expected/fn_006B45A2.obj",
       "base_path": "build/fn_006B45A2.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B45A2.c",
         "progress_categories": [
           "game"
         ]
@@ -80314,7 +80510,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B45AE.c"
       }
     },
     {
@@ -80332,6 +80529,7 @@
       "target_path": "expected/fn_006B4642.obj",
       "base_path": "build/fn_006B4642.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B4642.c",
         "progress_categories": [
           "game"
         ]
@@ -80344,7 +80542,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B4678.c"
       }
     },
     {
@@ -80354,7 +80553,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B4686.c"
       }
     },
     {
@@ -80392,6 +80592,7 @@
       "target_path": "expected/fn_006B4704.obj",
       "base_path": "build/fn_006B4704.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B4704.c",
         "progress_categories": [
           "game"
         ]
@@ -80402,6 +80603,7 @@
       "target_path": "expected/fn_006B4731.obj",
       "base_path": "build/fn_006B4731.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B4731.c",
         "progress_categories": [
           "game"
         ]
@@ -80414,7 +80616,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B474F.c"
       }
     },
     {
@@ -80422,6 +80625,7 @@
       "target_path": "expected/fn_006B477F.obj",
       "base_path": "build/fn_006B477F.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B477F.c",
         "progress_categories": [
           "game"
         ]
@@ -80464,7 +80668,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B47F5.c"
       }
     },
     {
@@ -80555,7 +80760,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B4941.c"
       }
     },
     {
@@ -80653,6 +80859,7 @@
       "target_path": "expected/fn_006B4C0D.obj",
       "base_path": "build/fn_006B4C0D.obj",
       "metadata": {
+        "source_path": "src/fn_006B4C0D.c",
         "progress_categories": [
           "game"
         ]
@@ -80733,6 +80940,7 @@
       "target_path": "expected/fn_006B5024.obj",
       "base_path": "build/fn_006B5024.obj",
       "metadata": {
+        "source_path": "src/fn_006B5024.c",
         "progress_categories": [
           "game"
         ]
@@ -80815,7 +81023,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B5469.c"
       }
     },
     {
@@ -80835,7 +81044,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B549B.c"
       }
     },
     {
@@ -80857,7 +81067,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006B54BE.c"
+        "source_path": "src/matching_candidates/fn_006B54BE.c"
       }
     },
     {
@@ -80927,7 +81137,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B61D8.c"
       }
     },
     {
@@ -80947,7 +81158,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B621B.c"
       }
     },
     {
@@ -80987,7 +81199,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B62D1.cpp"
       }
     },
     {
@@ -81007,7 +81220,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B63BB.c"
       }
     },
     {
@@ -81057,7 +81271,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B64FB.c"
       }
     },
     {
@@ -81067,7 +81282,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B6507.c"
       }
     },
     {
@@ -81077,7 +81293,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B6513.c"
       }
     },
     {
@@ -81087,7 +81304,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B651F.c"
       }
     },
     {
@@ -81097,7 +81315,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B652B.c"
       }
     },
     {
@@ -81107,7 +81326,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B6537.c"
       }
     },
     {
@@ -81127,7 +81347,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B6561.c"
       }
     },
     {
@@ -81298,7 +81519,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B69A4.c"
       }
     },
     {
@@ -81318,7 +81540,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B69FA.c"
       }
     },
     {
@@ -81328,7 +81551,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006B6A25.c"
       }
     },
     {
@@ -81366,6 +81590,7 @@
       "target_path": "expected/fn_006B6B05.obj",
       "base_path": "build/fn_006B6B05.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B6B05.c",
         "progress_categories": [
           "game"
         ]
@@ -81398,7 +81623,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B6BBA.c"
       }
     },
     {
@@ -81688,7 +81914,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9160.c"
       }
     },
     {
@@ -81698,7 +81925,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9166.c"
       }
     },
     {
@@ -81738,7 +81966,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B917E.c"
       }
     },
     {
@@ -81808,7 +82037,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B92B6.c"
       }
     },
     {
@@ -81818,7 +82048,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B92BC.c"
       }
     },
     {
@@ -81828,7 +82059,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B92C2.c"
       }
     },
     {
@@ -81848,7 +82080,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9364.c"
       }
     },
     {
@@ -81868,7 +82101,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9380.c"
       }
     },
     {
@@ -81878,7 +82112,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9386.c"
       }
     },
     {
@@ -81888,7 +82123,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B938C.c"
       }
     },
     {
@@ -81898,7 +82134,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9392.c"
       }
     },
     {
@@ -81908,7 +82145,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9398.c"
       }
     },
     {
@@ -81918,7 +82156,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B939E.c"
       }
     },
     {
@@ -81986,6 +82225,7 @@
       "target_path": "expected/fn_006B9718.obj",
       "base_path": "build/fn_006B9718.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006B9718.c",
         "progress_categories": [
           "game"
         ]
@@ -81998,7 +82238,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9730.c"
       }
     },
     {
@@ -82018,7 +82259,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9774.c"
       }
     },
     {
@@ -82028,7 +82270,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B977A.c"
       }
     },
     {
@@ -82038,7 +82281,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9780.c"
       }
     },
     {
@@ -82048,7 +82292,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9786.c"
       }
     },
     {
@@ -82098,7 +82343,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B36.c"
       }
     },
     {
@@ -82108,7 +82354,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B3C.c"
       }
     },
     {
@@ -82118,7 +82365,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B42.c"
       }
     },
     {
@@ -82128,7 +82376,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B48.c"
       }
     },
     {
@@ -82138,7 +82387,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B4E.c"
       }
     },
     {
@@ -82148,7 +82398,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B54.c"
       }
     },
     {
@@ -82158,7 +82409,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B5A.c"
       }
     },
     {
@@ -82168,7 +82420,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B60.c"
       }
     },
     {
@@ -82178,7 +82431,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B66.c"
       }
     },
     {
@@ -82188,7 +82442,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B6C.c"
       }
     },
     {
@@ -82198,7 +82453,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B72.c"
       }
     },
     {
@@ -82208,7 +82464,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B78.c"
       }
     },
     {
@@ -82218,7 +82475,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B7E.c"
       }
     },
     {
@@ -82228,7 +82486,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B84.c"
       }
     },
     {
@@ -82238,7 +82497,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B8A.c"
       }
     },
     {
@@ -82248,7 +82508,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9B90.c"
       }
     },
     {
@@ -82278,7 +82539,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9C18.c"
       }
     },
     {
@@ -82288,7 +82550,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9C1E.c"
       }
     },
     {
@@ -82308,7 +82571,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9C76.c"
       }
     },
     {
@@ -82318,7 +82582,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9CCA.c"
       }
     },
     {
@@ -82358,7 +82623,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9E0C.c"
       }
     },
     {
@@ -82368,7 +82634,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9E12.c"
       }
     },
     {
@@ -82408,7 +82675,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9F92.c"
       }
     },
     {
@@ -82418,7 +82686,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9F98.c"
       }
     },
     {
@@ -82428,7 +82697,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9F9E.c"
       }
     },
     {
@@ -82448,7 +82718,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9FB4.c"
       }
     },
     {
@@ -82458,7 +82729,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006B9FBA.c"
       }
     },
     {
@@ -82478,7 +82750,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006BA0D0.c"
       }
     },
     {
@@ -84663,7 +84936,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C3E20.c"
       }
     },
     {
@@ -84713,7 +84987,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C4150.c"
       }
     },
     {
@@ -84733,7 +85008,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C41B0.c"
       }
     },
     {
@@ -84753,7 +85029,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C4210.c"
       }
     },
     {
@@ -84984,7 +85261,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C5170.c"
       }
     },
     {
@@ -85295,7 +85573,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006C9700.c"
+        "source_path": "src/matching_candidates/fn_006C9700.c"
       }
     },
     {
@@ -85315,7 +85593,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C97E0.c"
       }
     },
     {
@@ -85375,7 +85654,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006C9E30.c"
       }
     },
     {
@@ -85469,7 +85749,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006C9FC0.c"
       }
     },
     {
@@ -85487,6 +85768,7 @@
       "target_path": "expected/fn_006CA000.obj",
       "base_path": "build/fn_006CA000.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006CA000.c",
         "progress_categories": [
           "game"
         ]
@@ -85569,7 +85851,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CA300.c"
       }
     },
     {
@@ -85579,7 +85862,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CA330.c"
       }
     },
     {
@@ -85589,7 +85873,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CA340.c"
       }
     },
     {
@@ -85599,7 +85884,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CA360.c"
       }
     },
     {
@@ -85699,7 +85985,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CAC80.c"
       }
     },
     {
@@ -85939,7 +86226,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CC4D0.c"
       }
     },
     {
@@ -86009,7 +86297,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CC810.c"
       }
     },
     {
@@ -86039,7 +86328,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CCBD0.c"
       }
     },
     {
@@ -86089,7 +86379,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CD230.c"
       }
     },
     {
@@ -86249,7 +86540,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006CE560.c"
       }
     },
     {
@@ -86309,7 +86601,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006CEC00.c"
       }
     },
     {
@@ -86740,7 +87033,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006D3EA0.c"
       }
     },
     {
@@ -87211,7 +87505,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D6BCE.c"
       }
     },
     {
@@ -87221,7 +87516,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D6BF1.c"
       }
     },
     {
@@ -87385,7 +87681,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D71DB.c"
       }
     },
     {
@@ -87395,7 +87692,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D71FD.c"
       }
     },
     {
@@ -87405,7 +87703,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D7220.c"
       }
     },
     {
@@ -87415,7 +87714,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D7249.c"
       }
     },
     {
@@ -87425,7 +87725,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D7272.c"
       }
     },
     {
@@ -87435,7 +87736,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D729B.c"
       }
     },
     {
@@ -87445,7 +87747,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D72C4.c"
       }
     },
     {
@@ -87455,7 +87758,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D72ED.cpp"
       }
     },
     {
@@ -87465,7 +87769,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D7316.c"
       }
     },
     {
@@ -87475,7 +87780,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D733F.c"
       }
     },
     {
@@ -87485,7 +87791,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D7368.c"
       }
     },
     {
@@ -87495,7 +87802,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006D7391.c"
       }
     },
     {
@@ -87515,7 +87823,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D744B.c"
       }
     },
     {
@@ -87535,7 +87844,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D74AF.c"
       }
     },
     {
@@ -87566,7 +87876,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006D7667.c"
+        "source_path": "src/matching_candidates/fn_006D7667.c"
       }
     },
     {
@@ -87599,7 +87909,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006D768D.c"
+        "source_path": "src/matching_candidates/fn_006D768D.c"
       }
     },
     {
@@ -87729,7 +88039,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006D7A48.c"
       }
     },
     {
@@ -88099,7 +88410,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D8D62.c"
       }
     },
     {
@@ -88119,7 +88431,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D8E10.c"
       }
     },
     {
@@ -88197,6 +88510,7 @@
       "target_path": "expected/fn_006D9130.obj",
       "base_path": "build/fn_006D9130.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006D9130.c",
         "progress_categories": [
           "game"
         ]
@@ -88237,6 +88551,7 @@
       "target_path": "expected/fn_006D927A.obj",
       "base_path": "build/fn_006D927A.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006D927A.c",
         "progress_categories": [
           "game"
         ]
@@ -88640,7 +88955,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D9E2C.c"
       }
     },
     {
@@ -88660,7 +88976,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D9E9B.c"
       }
     },
     {
@@ -88670,7 +88987,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006D9EAC.c"
       }
     },
     {
@@ -89050,7 +89368,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DADB9.c"
       }
     },
     {
@@ -89061,7 +89380,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006DADCF.c"
+        "source_path": "src/matching_candidates/fn_006DADCF.c"
       }
     },
     {
@@ -89091,7 +89410,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DAEA2.c"
       }
     },
     {
@@ -89181,7 +89501,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DB335.c"
       }
     },
     {
@@ -89201,7 +89522,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DB392.c"
       }
     },
     {
@@ -89641,7 +89963,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DC733.c"
       }
     },
     {
@@ -89661,7 +89984,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DC86F.c"
       }
     },
     {
@@ -89711,7 +90035,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DC959.c"
       }
     },
     {
@@ -89721,7 +90046,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DC962.c"
       }
     },
     {
@@ -89869,6 +90195,7 @@
       "target_path": "expected/fn_006DCBA0.obj",
       "base_path": "build/fn_006DCBA0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006DCBA0.c",
         "progress_categories": [
           "game"
         ]
@@ -89879,6 +90206,7 @@
       "target_path": "expected/fn_006DCBA9.obj",
       "base_path": "build/fn_006DCBA9.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006DCBA9.c",
         "progress_categories": [
           "game"
         ]
@@ -89951,7 +90279,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DCDA3.c"
       }
     },
     {
@@ -90222,7 +90551,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DDE6E.c"
       }
     },
     {
@@ -90262,7 +90592,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE208.c"
       }
     },
     {
@@ -90272,7 +90603,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE230.c"
       }
     },
     {
@@ -90282,7 +90614,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE285.c"
       }
     },
     {
@@ -90372,7 +90705,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE449.c"
       }
     },
     {
@@ -90412,7 +90746,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE5B0.c"
       }
     },
     {
@@ -90504,7 +90839,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE6D7.c"
       }
     },
     {
@@ -90524,7 +90860,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE70D.c"
       }
     },
     {
@@ -90534,7 +90871,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DE73C.c"
       }
     },
     {
@@ -90572,6 +90910,7 @@
       "target_path": "expected/fn_006DE7C7.obj",
       "base_path": "build/fn_006DE7C7.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006DE7C7.c",
         "progress_categories": [
           "game"
         ]
@@ -90683,6 +91022,7 @@
       "target_path": "expected/fn_006DEAE4.obj",
       "base_path": "build/fn_006DEAE4.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006DEAE4.c",
         "progress_categories": [
           "game"
         ]
@@ -90695,7 +91035,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DEAF3.c"
       }
     },
     {
@@ -90735,7 +91076,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DECA0.c"
       }
     },
     {
@@ -90816,7 +91158,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DF0F5.c"
       }
     },
     {
@@ -90826,7 +91169,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DF12F.c"
       }
     },
     {
@@ -90946,7 +91290,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DF9EC.c"
       }
     },
     {
@@ -90996,7 +91341,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006DFAF6.c"
       }
     },
     {
@@ -91036,7 +91382,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DFC57.c"
       }
     },
     {
@@ -91066,7 +91413,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DFDE8.c"
       }
     },
     {
@@ -91106,7 +91454,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DFFA8.c"
       }
     },
     {
@@ -91116,7 +91465,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006DFFEB.c"
       }
     },
     {
@@ -91207,7 +91557,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E0350.c"
       }
     },
     {
@@ -91317,7 +91668,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E0A12.c"
       }
     },
     {
@@ -91407,7 +91759,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1177.c"
       }
     },
     {
@@ -91417,7 +91770,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1197.c"
       }
     },
     {
@@ -91427,7 +91781,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E11BA.c"
       }
     },
     {
@@ -91447,7 +91802,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E122C.c"
       }
     },
     {
@@ -91497,7 +91853,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E1520.c"
       }
     },
     {
@@ -91507,7 +91864,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1531.c"
       }
     },
     {
@@ -91517,7 +91875,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1552.c"
       }
     },
     {
@@ -91527,7 +91886,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E156B.c"
       }
     },
     {
@@ -91609,7 +91969,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006E1850.c"
+        "source_path": "src/matching_candidates/fn_006E1850.c"
       }
     },
     {
@@ -91649,7 +92009,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1911.c"
       }
     },
     {
@@ -91659,7 +92020,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1948.c"
       }
     },
     {
@@ -91669,7 +92031,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1997.c"
       }
     },
     {
@@ -91729,7 +92092,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1C88.c"
       }
     },
     {
@@ -91757,6 +92121,7 @@
       "target_path": "expected/fn_006E1D8E.obj",
       "base_path": "build/fn_006E1D8E.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E1D8E.c",
         "progress_categories": [
           "game"
         ]
@@ -91779,7 +92144,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E1FB5.c"
       }
     },
     {
@@ -91800,7 +92166,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E1FD5.c"
       }
     },
     {
@@ -91821,7 +92188,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006E208D.c"
+        "source_path": "src/matching_candidates/fn_006E208D.c"
       }
     },
     {
@@ -91871,7 +92238,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E2611.c"
       }
     },
     {
@@ -91921,7 +92289,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E297F.c"
       }
     },
     {
@@ -91961,7 +92330,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E2B09.c"
       }
     },
     {
@@ -92160,6 +92530,7 @@
       "target_path": "expected/fn_006E3F56.obj",
       "base_path": "build/fn_006E3F56.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E3F56.c",
         "progress_categories": [
           "game"
         ]
@@ -92232,7 +92603,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E444E.c"
       }
     },
     {
@@ -92252,7 +92624,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E483E.c"
       }
     },
     {
@@ -92272,7 +92645,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E4886.c"
       }
     },
     {
@@ -92481,6 +92855,7 @@
       "target_path": "expected/fn_006E590C.obj",
       "base_path": "build/fn_006E590C.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E590C.c",
         "progress_categories": [
           "game"
         ]
@@ -92493,7 +92868,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E5936.c"
       }
     },
     {
@@ -92645,7 +93021,7 @@
         "progress_categories": [
           "game"
         ],
-        "source_path": "src/fn_006E6353.c"
+        "source_path": "src/matching_candidates/fn_006E6353.c"
       }
     },
     {
@@ -92655,7 +93031,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E6357.c"
       }
     },
     {
@@ -92665,7 +93042,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E6383.c"
       }
     },
     {
@@ -92795,7 +93173,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E70B6.c"
       }
     },
     {
@@ -92813,6 +93192,7 @@
       "target_path": "expected/fn_006E712E.obj",
       "base_path": "build/fn_006E712E.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E712E.c",
         "progress_categories": [
           "game"
         ]
@@ -92825,7 +93205,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E713D.c"
       }
     },
     {
@@ -92835,7 +93216,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E7161.c"
       }
     },
     {
@@ -92855,7 +93237,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E71A5.c"
       }
     },
     {
@@ -92865,7 +93248,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E71E1.c"
       }
     },
     {
@@ -92885,7 +93269,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E7226.c"
       }
     },
     {
@@ -92895,7 +93280,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E7241.c"
       }
     },
     {
@@ -92905,7 +93291,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E7266.c"
       }
     },
     {
@@ -92935,7 +93322,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E73C1.c"
       }
     },
     {
@@ -92995,7 +93383,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E75F3.c"
       }
     },
     {
@@ -93035,7 +93424,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E77F7.c"
       }
     },
     {
@@ -93043,6 +93433,7 @@
       "target_path": "expected/fn_006E780D.obj",
       "base_path": "build/fn_006E780D.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E780D.c",
         "progress_categories": [
           "game"
         ]
@@ -93075,7 +93466,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E78C0.c"
       }
     },
     {
@@ -93095,7 +93487,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E798A.c"
       }
     },
     {
@@ -93103,6 +93496,7 @@
       "target_path": "expected/fn_006E7A3B.obj",
       "base_path": "build/fn_006E7A3B.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E7A3B.c",
         "progress_categories": [
           "game"
         ]
@@ -93123,6 +93517,7 @@
       "target_path": "expected/fn_006E7AED.obj",
       "base_path": "build/fn_006E7AED.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E7AED.c",
         "progress_categories": [
           "game"
         ]
@@ -93145,7 +93540,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E7BE2.c"
       }
     },
     {
@@ -93155,7 +93551,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E7C5B.c"
       }
     },
     {
@@ -93163,6 +93560,7 @@
       "target_path": "expected/fn_006E7C78.obj",
       "base_path": "build/fn_006E7C78.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E7C78.c",
         "progress_categories": [
           "game"
         ]
@@ -93193,6 +93591,7 @@
       "target_path": "expected/fn_006E7D68.obj",
       "base_path": "build/fn_006E7D68.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E7D68.c",
         "progress_categories": [
           "game"
         ]
@@ -93205,7 +93604,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E7D8E.c"
       }
     },
     {
@@ -93233,6 +93633,7 @@
       "target_path": "expected/fn_006E7EA2.obj",
       "base_path": "build/fn_006E7EA2.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E7EA2.c",
         "progress_categories": [
           "game"
         ]
@@ -93255,7 +93656,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E7FA4.c"
       }
     },
     {
@@ -93275,7 +93677,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E8039.c"
       }
     },
     {
@@ -93285,7 +93688,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E8064.c"
       }
     },
     {
@@ -93295,7 +93699,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E8096.c"
       }
     },
     {
@@ -93305,7 +93710,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E80D9.c"
       }
     },
     {
@@ -93325,7 +93731,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E8138.c"
       }
     },
     {
@@ -93333,6 +93740,7 @@
       "target_path": "expected/fn_006E817B.obj",
       "base_path": "build/fn_006E817B.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006E817B.c",
         "progress_categories": [
           "game"
         ]
@@ -93355,7 +93763,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E81E4.c"
       }
     },
     {
@@ -93375,7 +93784,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E8368.c"
       }
     },
     {
@@ -93393,6 +93803,7 @@
       "target_path": "expected/fn_006E83BC.obj",
       "base_path": "build/fn_006E83BC.obj",
       "metadata": {
+        "source_path": "src/fn_006E83BC.c",
         "progress_categories": [
           "game"
         ]
@@ -93435,7 +93846,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006E86F5.cpp"
       }
     },
     {
@@ -93455,7 +93867,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006E8737.c"
       }
     },
     {
@@ -93695,7 +94108,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006EA059.c"
       }
     },
     {
@@ -93723,6 +94137,7 @@
       "target_path": "expected/fn_006EA266.obj",
       "base_path": "build/fn_006EA266.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EA266.c",
         "progress_categories": [
           "game"
         ]
@@ -93767,7 +94182,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006EA354.c"
       }
     },
     {
@@ -93775,6 +94191,7 @@
       "target_path": "expected/fn_006EA396.obj",
       "base_path": "build/fn_006EA396.obj",
       "metadata": {
+        "source_path": "src/fn_006EA396.c",
         "progress_categories": [
           "game"
         ]
@@ -93849,7 +94266,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006EA783.c"
       }
     },
     {
@@ -93918,6 +94336,7 @@
       "target_path": "expected/fn_006EA901.obj",
       "base_path": "build/fn_006EA901.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EA901.c",
         "progress_categories": [
           "game"
         ]
@@ -93980,7 +94399,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006EACBE.c"
       }
     },
     {
@@ -93990,7 +94410,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006EACDD.c"
       }
     },
     {
@@ -94008,6 +94429,7 @@
       "target_path": "expected/fn_006EAD91.obj",
       "base_path": "build/fn_006EAD91.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EAD91.c",
         "progress_categories": [
           "game"
         ]
@@ -94050,7 +94472,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006EB0C9.c"
       }
     },
     {
@@ -94228,6 +94651,7 @@
       "target_path": "expected/fn_006EDA30.obj",
       "base_path": "build/fn_006EDA30.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EDA30.c",
         "progress_categories": [
           "game"
         ]
@@ -94248,6 +94672,7 @@
       "target_path": "expected/fn_006EDAC0.obj",
       "base_path": "build/fn_006EDAC0.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EDAC0.c",
         "progress_categories": [
           "game"
         ]
@@ -94298,6 +94723,7 @@
       "target_path": "expected/fn_006EDD13.obj",
       "base_path": "build/fn_006EDD13.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006EDD13.c",
         "progress_categories": [
           "game"
         ]
@@ -94520,7 +94946,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006F0E5D.c"
       }
     },
     {
@@ -94560,7 +94987,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006F1034.c"
       }
     },
     {
@@ -94700,7 +95128,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F2478.c"
       }
     },
     {
@@ -94720,7 +95149,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F2514.c"
       }
     },
     {
@@ -94730,7 +95160,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/matching_candidates/fn_006F2532.c"
       }
     },
     {
@@ -94738,6 +95169,7 @@
       "target_path": "expected/fn_006F2550.obj",
       "base_path": "build/fn_006F2550.obj",
       "metadata": {
+        "source_path": "src/fn_006F2550.c",
         "progress_categories": [
           "game"
         ]
@@ -94760,7 +95192,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F26DF.c"
       }
     },
     {
@@ -94788,6 +95221,7 @@
       "target_path": "expected/fn_006F280C.obj",
       "base_path": "build/fn_006F280C.obj",
       "metadata": {
+        "source_path": "src/fn_006F280C.c",
         "progress_categories": [
           "game"
         ]
@@ -94798,6 +95232,7 @@
       "target_path": "expected/fn_006F2824.obj",
       "base_path": "build/fn_006F2824.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006F2824.c",
         "progress_categories": [
           "game"
         ]
@@ -94890,7 +95325,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F361E.c"
       }
     },
     {
@@ -94900,7 +95336,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F3624.c"
       }
     },
     {
@@ -94910,7 +95347,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F362A.c"
       }
     },
     {
@@ -94930,7 +95368,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F363C.c"
       }
     },
     {
@@ -95150,7 +95589,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F45BF.c"
       }
     },
     {
@@ -95158,6 +95598,7 @@
       "target_path": "expected/fn_006F45E6.obj",
       "base_path": "build/fn_006F45E6.obj",
       "metadata": {
+        "source_path": "src/fn_006F45E6.c",
         "progress_categories": [
           "game"
         ]
@@ -95178,6 +95619,7 @@
       "target_path": "expected/fn_006F4627.obj",
       "base_path": "build/fn_006F4627.obj",
       "metadata": {
+        "source_path": "src/fn_006F4627.c",
         "progress_categories": [
           "game"
         ]
@@ -95290,7 +95732,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4E17.c"
       }
     },
     {
@@ -95430,7 +95873,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4E95.c"
       }
     },
     {
@@ -95440,7 +95884,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4E9E.c"
       }
     },
     {
@@ -95450,7 +95895,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4EA7.c"
       }
     },
     {
@@ -95470,7 +95916,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4EB9.c"
       }
     },
     {
@@ -95490,7 +95937,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4ECB.c"
       }
     },
     {
@@ -95500,7 +95948,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4ED4.c"
       }
     },
     {
@@ -95520,7 +95969,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4EE6.c"
       }
     },
     {
@@ -95530,7 +95980,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4EEF.c"
       }
     },
     {
@@ -95540,7 +95991,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4EF8.c"
       }
     },
     {
@@ -95550,7 +96002,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4F01.c"
       }
     },
     {
@@ -95560,7 +96013,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4F0A.c"
       }
     },
     {
@@ -95580,7 +96034,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F4F1C.c"
       }
     },
     {
@@ -95948,6 +96403,7 @@
       "target_path": "expected/fn_006F5069.obj",
       "base_path": "build/fn_006F5069.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006F5069.c",
         "progress_categories": [
           "game"
         ]
@@ -95958,6 +96414,7 @@
       "target_path": "expected/fn_006F5072.obj",
       "base_path": "build/fn_006F5072.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006F5072.c",
         "progress_categories": [
           "game"
         ]
@@ -95968,6 +96425,7 @@
       "target_path": "expected/fn_006F507B.obj",
       "base_path": "build/fn_006F507B.obj",
       "metadata": {
+        "source_path": "src/matching_candidates/fn_006F507B.c",
         "progress_categories": [
           "game"
         ]
@@ -95980,7 +96438,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F5084.c"
       }
     },
     {
@@ -96020,7 +96479,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F5190.c"
       }
     },
     {
@@ -96030,7 +96490,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F5196.c"
       }
     },
     {
@@ -96040,7 +96501,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F519C.c"
       }
     },
     {
@@ -96050,7 +96512,8 @@
       "metadata": {
         "progress_categories": [
           "game"
-        ]
+        ],
+        "source_path": "src/fn_006F51A2.c"
       }
     },
     {
@@ -111664,6 +112127,61 @@
         "progress_categories": [
           "game"
         ]
+      }
+    },
+    {
+      "name": "fn_006B9B96",
+      "target_path": "expected/fn_006B9B96.obj",
+      "base_path": "build/fn_006B9B96.obj",
+      "metadata": {
+        "source_path": "src/fn_006B9B96.c",
+        "progress_categories": [
+          "game"
+        ]
+      }
+    },
+    {
+      "name": "fn_006B9CC4",
+      "target_path": "expected/fn_006B9CC4.obj",
+      "base_path": "build/fn_006B9CC4.obj",
+      "metadata": {
+        "source_path": "src/fn_006B9CC4.c",
+        "progress_categories": [
+          "game"
+        ]
+      }
+    },
+    {
+      "name": "fn_006B9FC0",
+      "target_path": "expected/fn_006B9FC0.obj",
+      "base_path": "build/fn_006B9FC0.obj",
+      "metadata": {
+        "source_path": "src/fn_006B9FC0.c",
+        "progress_categories": [
+          "game"
+        ]
+      }
+    },
+    {
+      "name": "fn_006F3642",
+      "target_path": "expected/fn_006F3642.obj",
+      "base_path": "build/fn_006F3642.obj",
+      "metadata": {
+        "source_path": "src/fn_006F3642.c",
+        "progress_categories": [
+          "game"
+        ]
+      }
+    },
+    {
+      "name": "fn_0048AB80",
+      "target_path": "expected/fn_0048AB80.obj",
+      "base_path": "build/fn_0048AB80.obj",
+      "metadata": {
+        "progress_categories": [
+          "game"
+        ],
+        "source_path": "src/fn_0048AB80.c"
       }
     }
   ],

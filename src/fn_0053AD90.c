@@ -1,0 +1,5 @@
+int fn_0053AD90(void)
+{
+    return *(volatile float*)0x00D6CC7C > *(volatile float*)0x00D6CC78 &&
+           *(volatile unsigned char*)0x00D6CC80 == 0;
+}

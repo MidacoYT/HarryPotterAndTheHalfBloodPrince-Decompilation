@@ -1,0 +1,1 @@
+struct X { char pad0[8]; unsigned cap; unsigned count; char pad1[0x40]; unsigned a; char pad2[0x7c]; unsigned b; char pad3[8]; unsigned c; bool ready(); }; bool X::ready() { return count >= cap && !a && !b && !c; }
