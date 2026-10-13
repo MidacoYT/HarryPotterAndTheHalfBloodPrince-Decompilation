@@ -5,11 +5,22 @@ An unofficial, function-by-function decompilation project for the **Windows PC**
 ## Current progress
 
 - Target executable: `hp6.exe`, version `1.0.0.1`, SHA-256 `41cbb7ad4b08f6edeb5c2a06aea037d1c0634e9b71df093cc9a26b2287916e10`.
-- The current objdiff report covers all 10,989 inventoried functions. 2,358 functions match exactly (21.46% by function count).
-- Exact machine-code coverage is 28,616 of 2,530,810 code bytes (1.13%).
+- The current objdiff report covers all 10,992 inventoried functions. 2,422 functions match exactly (22.03% by function count).
+- Exact machine-code coverage is 30,302 of 2,530,025 code bytes (1.20%).
 - Recompiling 83 existing nonmatching C candidates with VC8 SP1 `/O2` produced 21 exact matches. Fixing C89 declaration order made five more sources compile; `fn_006F2514` now matches 30/30 bytes. Rewriting `fn_0057BA10` without an intermediate also matches 34/34 bytes. The latest report was generated from the rebuilt objects.
 - This pass added 178 C matching candidates, each rebuilt and byte-checked with VC8 SP1; 108 use per-function compiler switches recorded in the manifest. Recent batches found 68 matches through compiler-option sweeps, 9 after allowing undeclared internal calls, 1 after adding a typed global declaration at its recorded address, and 5 with alternate optimizer flags. Their options and relocations are recorded in the manifest. Source semantics remain inferred from the binary and are not independently validated.
-- Added a custom Capstone-based decompiler (`tmp/autodecomp/own_decompiler.py`) that transliterates straight-line/branching x86 into C without guessing, plus an LTCG-based matcher for register-passed arguments. Fixed a dead-code-elimination bug in the LTCG probe harness, added deferred cmp/test-to-jcc matching across VC8's instruction-scheduled code, and added `base + index*scale` memory-operand support. 19 new exact matches from this pass.
+- Added a custom Capstone-based decompiler (`tools/own_decompiler.py`) that transliterates supported x86 control flow into C without guessing, plus an LTCG-based matcher for register-passed arguments. Its experimental matcher and batch scripts remain under `tmp/autodecomp/`. The decompiler validates CFG branch targets and propagates register, flags, and stack-frame state before lowering. The original matcher pass recorded 19 new exact matches.
+- The `own_batch_test.py` flow uses `tools/own_decompiler.py` as its only source of reconstructed function bodies, signatures, and call arguments. Its separate support modules only compile and compare candidates with VC8.
+
+## Run the own decompiler directly
+
+Pass only the executable path to scan its executable sections, decompile detected function candidates, and verify byte matches:
+
+```powershell
+python .\tools\own_decompiler.py "D:\Games\Harry Potter and the Half-Blood Prince\pc\hp6.exe"
+```
+
+It writes generated C files and a live `report.json` under `build/own_decompiled/`. The report is refreshed every 25 candidates and on each skip/error; `errors.jsonl` is flushed immediately for each unsupported function, matching error, or compiled byte difference. Discovery uses executable bytes only; it does not read the function CSV or manifest. Candidate discovery and sizes are heuristic, so the report distinguishes detected candidates from verified exact matches. To try one address, pass it with `--size 0xNN`; add `-o .\function.c` to save that C output.
 
 Symbols remain address-based for reliable objdiff matching; confirmed function roles are recorded in source comments and [the setup and evidence notes](docs/DECOMPILATION_SETUP.md).
 
