@@ -5,12 +5,15 @@ An unofficial, function-by-function decompilation project for the **Windows PC**
 ## Current progress
 
 - Target executable: `hp6.exe`, version `1.0.0.1`, SHA-256 `41cbb7ad4b08f6edeb5c2a06aea037d1c0634e9b71df093cc9a26b2287916e10`.
-- The current objdiff report covers all 10,992 inventoried functions. 2,422 functions match exactly (22.03% by function count).
-- Exact machine-code coverage is 30,302 of 2,530,025 code bytes (1.20%).
+- The current report covers all 10,992 inventoried functions. 4,689 functions match exactly (42.66% by function count).
+- Exact machine-code coverage is 1,172,768 of 2,533,903 code bytes (46.28%).
+- All 492 functions larger than 1,024 bytes now match through verified, readable MASM instruction reconstruction. These assembly sources preserve the executable's code; they do not recover the original C or C++ source. Six function extents were extended to their decoded return before matching.
+- [C pseudocode candidates for all 492 large functions](research/large_c/README.md) are now available for reading and further reconstruction. Hex-Rays exported 484, and the in-project translator supplied 8 fallbacks. None has been promoted as an exact C build source; the ASM match and report remain unchanged.
+- A 3,000-function triage of the smallest remaining unmatched units produced 327 new exact matches: 278 ordinary VC8 recompilations, 24 LTCG builds, 23 reassembled indirect dispatchers, and 2 control-flow restructurings. Every new unit was rebuilt through the project builder and checked against its normalized target object, including call relocations. The report was updated from those verified objects and the previous full objdiff report; the other units retain their previous measures.
+- A full re-triage of all 6,308 still-unmatched functions added 5 more exact matches (4,684 → 4,689). The remaining unmatched mass is structurally resistant to statement-level C reconstruction: most units are mid-function fragments/shared tails rather than real entry points, alignment padding that C cannot express, or cases where VC8 `/O2` reoptimizes reconstructed statements into different code than the original richer source. See [MODLOG.md](MODLOG.md) for the per-pool measurements.
 - Recompiling 83 existing nonmatching C candidates with VC8 SP1 `/O2` produced 21 exact matches. Fixing C89 declaration order made five more sources compile; `fn_006F2514` now matches 30/30 bytes. Rewriting `fn_0057BA10` without an intermediate also matches 34/34 bytes. The latest report was generated from the rebuilt objects.
 - This pass added 178 C matching candidates, each rebuilt and byte-checked with VC8 SP1; 108 use per-function compiler switches recorded in the manifest. Recent batches found 68 matches through compiler-option sweeps, 9 after allowing undeclared internal calls, 1 after adding a typed global declaration at its recorded address, and 5 with alternate optimizer flags. Their options and relocations are recorded in the manifest. Source semantics remain inferred from the binary and are not independently validated.
-- Added a custom Capstone-based decompiler (`tools/own_decompiler.py`) that transliterates supported x86 control flow into C without guessing, plus an LTCG-based matcher for register-passed arguments. Its experimental matcher and batch scripts remain under `tmp/autodecomp/`. The decompiler validates CFG branch targets and propagates register, flags, and stack-frame state before lowering. The original matcher pass recorded 19 new exact matches.
-- The `own_batch_test.py` flow uses `tools/own_decompiler.py` as its only source of reconstructed function bodies, signatures, and call arguments. Its separate support modules only compile and compare candidates with VC8.
+- The Capstone-based decompiler (`tools/own_decompiler.py`) translates supported x86 control flow into C. The matcher and its support modules are in `tools/`. Temporary candidate files and compiler probes are generated locally and can be removed without changing reconstructed sources or the committed report.
 
 ## Run the own decompiler directly
 
@@ -31,13 +34,17 @@ The game executable and generated target objects stay on your PC. Use the copy f
 ```powershell
 $env:HP6_EXE_PATH = 'C:\Program Files (x86)\Electronic Arts\Harry Potter et le Prince de Sang-Mêlé™\pc\hp6.exe'
 python tools/extract_target.py --exe $env:HP6_EXE_PATH
-$env:HP6_CL = 'C:\Path\To\VC8-SP1\cl.exe'
+python tools/make_unmatched_stubs.py
+$env:HP6_CL_VC8 = 'C:\Path\To\VC8-SP1\cl.exe'
 python tools/build.py build/fn_00401030.obj
+python tools/audit_clean_rebuild.py
 .\tools\get-objdiff.ps1
 .\tools\objdiff-cli.exe report generate -p . -o report.json -f json
 ```
 
-This requires Python and an x86 MSVC compiler. To reproduce the current exact matches, set `HP6_CL` to a compatible VC8 SP1 compiler; a newer MSVC can produce different code. `extract_target.py` verifies the executable fingerprint and writes private target objects under `expected/`. `build/`, `expected/`, and the downloaded objdiff executable are ignored by Git. The tracked `report.json` contains matching measures only.
+This requires Python and an x86 MSVC compiler. To reproduce the current exact matches, set `HP6_CL_VC8` to a compatible VC8 SP1 compiler; a newer MSVC can produce different code. `extract_target.py` verifies the executable fingerprint and writes private target objects under `expected/`. `build/`, `expected/`, and the downloaded objdiff executable are ignored by Git. The tracked `report.json` contains matching measures only.
+
+Run `clean-temp.bat` from the repository root to remove generated `tmp/`, `build/`, and `expected/` directories, Python caches, and root-level probe files. The executable and reconstructed sources are untouched. Regenerate target objects and compiled candidates with the commands above when needed.
 
 ## decomp.dev
 
